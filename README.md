@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🚀 Mohammed Ehtesham - AI/ML Engineer Portfolio
 
 A premium, world-class portfolio showcasing my expertise in AI/ML Engineering and Software Development.
@@ -70,3 +71,6 @@ This project is open source and available under the [MIT License](LICENSE).
 ---
 
 ⭐ **Built with passion and precision** | Designed for impact
+=======
+# ehtesham-portfolio
+>>>>>>> ef2d03591a7450eac2490b8b3c7a5db1b5d2839a
