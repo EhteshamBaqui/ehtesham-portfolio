@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="120" viewBox="0 0 160 120">
+  <rect rx="12" width="160" height="120" fill="#071227" />
+  <g>
+    <path d="M30 28 L80 28 L56 76 L30 28" fill="#0078d4" />
+    <text x="50%" y="86%" dominant-baseline="middle" text-anchor="middle" font-size="12" fill="#e6eef8" font-family="Inter, Arial, sans-serif">Microsoft Azure</text>
+  </g>
+</svg>

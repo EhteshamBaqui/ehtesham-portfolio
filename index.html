@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ehtesham | Portfolio</title>
+
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/e674bba739.js" crossorigin="anonymous"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css?v=20260130-1">
+    <link rel="icon" type="image/png" href="assets/uk-favicon.png">
+</head>
+
+<body>
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+    <div class="bg-mesh"></div>
+    <div class="bg-grid"></div>
+    <div class="global-spotlight"></div>
+    <section id="header">
+        <div class="navbar-title">
+            <h3 class="title-first-name">Mohammed Ehtesham</h3>
+            <h3 class="title-last-name">Ul Baqui</h3>
+        </div>
+        <div id="hamburger" class="hamburger">☰</div>
+
+        <div>
+            <div class="navbar-menu-wrapper">
+                <ul class="navbar-menu">
+                    <li><a class="active" href="#home">&lt; Home &gt;</a></li>
+                    <li><a class="" href="#latest-works">Projects</a></li>
+                    <li><a class="" href="#research">Research</a></li>
+                    <li><a class="" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div>
+            <ul class="social-media">
+                <li>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    <a href="https://www.linkedin.com/in/mohammedehteshamulbaqui" target="_blank">LinkedIn</a>
+                </li>
+                <li>
+                    <i class="fa-brands fa-github"></i>
+                    <a href="https://github.com/EhteshamBaqui" target="_blank">Github</a>
+                </li>
+                <li>
+                    <i class="fa-regular fa-envelope"></i>
+                    <a href="mailto:ehteshambaqui9@gmail.com">Email</a>
+                </li>
+                <li>
+                    <a href="assets/resume.pdf" target="_blank" class="cv-button">
+                        <i class="fa-solid fa-file-pdf"></i>
+                        Download CV
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="home" class="content-body">
+        <div class="body-part-1">
+            <div class="developer-intro">
+                <div class="role-toggle-container">
+                    <span id="ai-role" class="role-option active-role">AI/ML Engineer</span>
+                    <span class="role-divider">|</span>
+                    <span id="software-role" class="role-option">Software Engineer</span>
+                </div>
+            </div>
+            <div class="body-title">
+                <h1>AI/ML Engineer<br>Turning Data Into Impactful Systems.</h1>
+                <p>
+                    I design, train, and productionize machine learning systems that solve real-world problems — from
+                    feature engineering and model training to scalable inference, observability, and continuous
+                    improvement on cloud-native platforms.
+                </p>
+                <a href="#contact" class="hero-btn">LET'S CHAT!</a>
+            </div>
+            <div class="body-tail-ribbon">
+                <div class="number">1+</div>
+                <div class="text">
+                    <div>YEARS</div>
+                    <div>EXPERIENCE</div>
+                </div>
+                <div class="number">6+</div>
+                <div class="text">
+                    <div>PROJECTS</div>
+                    <div>COMPLETED</div>
+                </div>
+            </div>
+        </div>
+        <div class="spacer-above-image"></div>
+        <div class="body-part-2">
+            <div class="profile-image-container">
+                <img src="assets/profile_main.png" alt="Ehtesham - AI & Software Engineer"
+                    class="profile-image circular-image">
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="latest-works" class="showcase reveal">
+        <div class="container">
+            <div class="projects-header">
+                <h2>My Projects</h2>
+                <p>Turning Ideas into Impactful Solutions</p>
+            </div>
+            <div class="projects-grid">
+                <!-- Anomaly Detection -->
+                <div class="project-card">
+                    <img src="assets/Projects/raster/anomaly_thumb.jpg" alt="Anomaly Detection in Surveillance"
+                        class="project-thumbnail">
+
+                    <div class="project-content">
+                        <div class="project-title-section">
+                            <h3>Anomaly Detection in Surveillance</h3>
+                            <span class="tech-tag">Computer Vision</span>
+                        </div>
+                        <p class="project-desc">Built a hybrid CNN + LSTM model to detect suspicious behavior in
+                            surveillance video streams in real-time.</p>
+                        <div class="project-tech-icons">
+                            <img src="assets/SVGIcons/python.svg" alt="Python" title="Python">
+                            <img src="assets/SVGIcons/pytorch.svg" alt="PyTorch" title="PyTorch">
+                            <img src="assets/SVGIcons/javascript.svg" alt="JavaScript" title="JavaScript">
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/EhteshamBaqui" target="_blank" class="project-button">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cancer Detection -->
+                <div class="project-card">
+                    <img src="assets/Projects/raster/cancer_thumb.jpg" alt="Lung & Colon Cancer Detection"
+                        class="project-thumbnail">
+
+                    <div class="project-content">
+                        <div class="project-title-section">
+                            <h3>Lung & Colon Cancer Detection</h3>
+                            <span class="tech-tag">Medical AI</span>
+                        </div>
+                        <p class="project-desc">ResNet50 transfer learning pipeline for histopathology classification
+                            with augmentation and regularization.</p>
+                        <div class="project-tech-icons">
+                            <img src="assets/SVGIcons/python.svg" alt="Python" title="Python">
+                            <img src="assets/SVGIcons/keras.svg" alt="Keras" title="Keras">
+                            <img src="assets/SVGIcons/tensorflow.svg" alt="TensorFlow" title="TensorFlow">
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/EhteshamBaqui" target="_blank" class="project-button">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- LEXES -->
+                <div class="project-card">
+                    <img src="assets/Projects/raster/lexes_thumb.png" alt="LEXES - AI Virtual Assistant"
+                        class="project-thumbnail">
+
+                    <div class="project-content">
+                        <div class="project-title-section">
+                            <h3>LEXES – AI Virtual Assistant</h3>
+                            <span class="tech-tag">NLP</span>
+                        </div>
+                        <p class="project-desc">Voice-controlled assistant integrating speech APIs to automate tasks
+                            such as emails, searches, and system controls.</p>
+                        <div class="project-tech-icons">
+                            <img src="assets/SVGIcons/javascript.svg" alt="JavaScript" title="JavaScript">
+                            <img src="assets/SVGIcons/nodejs.svg" alt="Node.js" title="Node.js">
+                            <img src="assets/SVGIcons/google-colab.svg" alt="Colab" title="Colab">
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/EhteshamBaqui" target="_blank" class="project-button">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- GAN Faces -->
+                <div class="project-card">
+                    <img src="assets/Projects/raster/gan_faces_thumb.jpg" alt="Face Generation using GANs"
+                        class="project-thumbnail">
+
+                    <div class="project-content">
+                        <div class="project-title-section">
+                            <h3>Face Generation using GANs</h3>
+                            <span class="tech-tag">Generative Models</span>
+                        </div>
+                        <p class="project-desc">GAN architecture trained on CelebA to synthesize realistic human faces
+                            for data augmentation and research.</p>
+                        <div class="project-tech-icons">
+                            <img src="assets/SVGIcons/tensorflow.svg" alt="TensorFlow" title="TensorFlow">
+                            <img src="assets/SVGIcons/pytorch.svg" alt="PyTorch" title="PyTorch">
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/EhteshamBaqui" target="_blank" class="project-button">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Student Performance -->
+                <div class="project-card">
+                    <img src="assets/Projects/raster/student_performance_thumb.jpg" alt="Student Performance Prediction"
+                        class="project-thumbnail">
+
+                    <div class="project-content">
+                        <div class="project-title-section">
+                            <h3>Student Performance Prediction</h3>
+                            <span class="tech-tag">Data Science</span>
+                        </div>
+                        <p class="project-desc">Predictive model using neural networks and feature engineering to
+                            forecast student outcomes from behavioral data.</p>
+                        <div class="project-tech-icons">
+                            <img src="assets/SVGIcons/pandas.svg" alt="Pandas" title="Pandas">
+                            <img src="assets/SVGIcons/numpy.svg" alt="NumPy" title="NumPy">
+                            <img src="assets/SVGIcons/python.svg" alt="Python" title="Python">
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/EhteshamBaqui" target="_blank" class="project-button">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Smart Inventory -->
+                <div class="project-card">
+                    <img src="assets/Projects/raster/inventory_thumb.png" alt="Smart Inventory Management"
+                        class="project-thumbnail">
+
+                    <div class="project-content">
+                        <div class="project-title-section">
+                            <h3>Smart Inventory Management</h3>
+                            <span class="tech-tag">Analytics</span>
+                        </div>
+                        <p class="project-desc">Inventory tracking and predictive analytics to anticipate stock
+                            shortages and automate alerts for small businesses.</p>
+                        <div class="project-tech-icons">
+                            <img src="assets/SVGIcons/javascript.svg" alt="JavaScript" title="JavaScript">
+                            <img src="assets/SVGIcons/sql.svg" alt="SQL" title="SQL">
+                            <img src="assets/SVGIcons/docker.svg" alt="Docker" title="Docker">
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/EhteshamBaqui" target="_blank" class="project-button">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section reveal">
+        <div class="container">
+            <div class="skills-header">
+                <h2>Technical Skills</h2>
+                <p>Technologies and Tools I Work With</p>
+            </div>
+
+            <div class="skill-category">
+                <h3>Programming Languages</h3>
+                <div class="skill-grid">
+                    <div class="skill-card" data-roles="software ai"><img src="assets/SVGIcons/python.svg" alt="Python">
+                        <p>Python</p>
+                    </div>
+                    <div class="skill-card" data-roles="software ai"><img src="assets/SVGIcons/java.svg" alt="Java">
+                        <p>Java</p>
+                    </div>
+                    <div class="skill-card text-only" data-roles="software ai">
+                        <p>C</p>
+                    </div>
+                    <div class="skill-card" data-roles="software ai"><img src="assets/SVGIcons/javascript.svg"
+                            alt="JavaScript">
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="skill-card" data-roles="software ai"><img src="assets/SVGIcons/html-5.svg" alt="HTML5">
+                        <p>HTML5</p>
+                    </div>
+                    <div class="skill-card" data-roles="software ai"><img src="assets/SVGIcons/css3.svg" alt="CSS3">
+                        <p>CSS3</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>Database Technologies</h3>
+                <div class="skill-grid">
+                    <div class="skill-card" data-roles="ai software"><img src="assets/SVGIcons/mysql.svg" alt="MySQL">
+                        <p>MySQL</p>
+                    </div>
+                    <div class="skill-card" data-roles="ai software"><img src="assets/SVGIcons/mongodb.svg"
+                            alt="MongoDB">
+                        <p>MongoDB</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="skill-category">
+                <h3>AI/ML & Deep Learning</h3>
+                <div class="skill-grid">
+                    <div class="skill-card" data-roles="ai"><img src="assets/AIIcons/tensorflow.png" alt="TensorFlow">
+                        <p>TensorFlow</p>
+                    </div>
+                    <div class="skill-card" data-roles="ai"><img src="assets/AIIcons/keras.png" alt="Keras">
+                        <p>Keras</p>
+                    </div>
+                    <div class="skill-card" data-roles="ai"><img src="assets/AIIcons/pytorch.png" alt="PyTorch">
+                        <p>PyTorch</p>
+                    </div>
+                    <div class="skill-card" data-roles="ai"><img src="assets/AIIcons/sklearn.png" alt="Scikit-learn">
+                        <p>Scikit-learn</p>
+                    </div>
+                    <div class="skill-card text-only" data-roles="ai">
+                        <p>CNN</p>
+                    </div>
+                    <div class="skill-card text-only" data-roles="ai">
+                        <p>LSTM</p>
+                    </div>
+                    <div class="skill-card text-only" data-roles="ai">
+                        <p>NLP</p>
+                    </div>
+                    <div class="skill-card text-only" data-roles="ai">
+                        <p>LLMs</p>
+                    </div>
+                    <div class="skill-card text-only" data-roles="ai">
+                        <p>Prompt Engineering</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>Data & Analytics</h3>
+                <div class="skill-grid">
+                    <div class="skill-card" data-roles="ai software"><img src="assets/AIIcons/powerbi.png"
+                            alt="Power BI">
+                        <p>Power BI</p>
+                    </div>
+                    <div class="skill-card" data-roles="ai software"><img src="assets/SVGIcons/tableau.svg"
+                            alt="Tableau">
+                        <p>Tableau</p>
+                    </div>
+                    <div class="skill-card" data-roles="ai software"><img src="assets/SVGIcons/excel.svg"
+                            alt="MS Excel">
+                        <p>MS Excel</p>
+                    </div>
+                    <div class="skill-card" data-roles="ai software"><img src="assets/SVGIcons/sheets.svg"
+                            alt="Google Sheets">
+                        <p>Google Sheets</p>
+                    </div>
+                    <div class="skill-card" data-roles="ai software"><img src="assets/SVGIcons/pandas.svg" alt="Pandas">
+                        <p>Pandas</p>
+                    </div>
+                    <div class="skill-card" data-roles="ai software"><img src="assets/SVGIcons/numpy.svg" alt="NumPy">
+                        <p>NumPy</p>
+                    </div>
+                    <div class="skill-card" data-roles="ai software"><img src="assets/SVGIcons/dataviz.svg"
+                            alt="Data Visualization">
+                        <p>Data Visualization</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>Web Development</h3>
+                <div class="skill-grid">
+                    <div class="skill-card text-only" data-roles="software ai">
+                        <p>Responsive Design</p>
+                    </div>
+                    <div class="skill-card text-only" data-roles="software ai">
+                        <p>REST APIs</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>Tools & Platforms</h3>
+                <div class="skill-grid">
+                    <div class="skill-card" data-roles="software ai"><img src="assets/AIIcons/github.png" alt="GitHub">
+                        <p>Git/GitHub</p>
+                    </div>
+                    <div class="skill-card" data-roles="software ai"><img src="assets/SVGIcons/vscode.svg"
+                            alt="VS Code">
+                        <p>VS Code</p>
+                    </div>
+                    <div class="skill-card" data-roles="software ai"><img src="assets/SVGIcons/jupyter.svg"
+                            alt="Jupyter">
+                        <p>Jupyter Notebook</p>
+                    </div>
+                    <div class="skill-card" data-roles="software ai"><img src="assets/SVGIcons/google-colab.svg"
+                            alt="Google Colab">
+                        <p>Google Colab</p>
+                    </div>
+                    <div class="skill-card" data-roles="software ai"><img src="assets/SVGIcons/postman.svg"
+                            alt="Postman">
+                        <p>Postman</p>
+                    </div>
+                    <div class="skill-card" data-roles="software ai"><img src="assets/SVGIcons/qradar.svg" alt="QRadar">
+                        <p>IBM QRadar</p>
+                    </div>
+                    <div class="skill-card" data-roles="software ai"><img src="assets/SVGIcons/shodan.svg" alt="Shodan">
+                        <p>Shodan</p>
+                    </div>
+                    <div class="skill-card" data-roles="software ai"><img src="assets/SVGIcons/maltego.svg"
+                            alt="Maltego">
+                        <p>Maltego</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="research" class="research-section reveal">
+        <div class="container">
+            <div class="research-header">
+                <h2>Publications</h2>
+                <p>Peer-reviewed work and technical contributions</p>
+            </div>
+            <div class="research-container">
+                <div class="research-item">
+                    <div class="research-icon">
+                        <img src="assets/SVGIcons/pdf-icon.svg" alt="PDF">
+                    </div>
+                    <div class="research-content">
+                        <h3>Predicting Student's Academic Performance Using Deep Learning</h3>
+                        <span class="research-badge">Journal Paper</span>
+                        <p class="research-context">IJLTEMAS, Volume XIV, Issue V, May 2025</p>
+                        <a href="https://www.ijltemas.in/submission/online/article/view/1994/1491"
+                            class="research-action" target="_blank" rel="noopener noreferrer">View Publication</a>
+                    </div>
+                </div>
+
+                <div class="research-item">
+                    <div class="research-icon">
+                        <img src="assets/SVGIcons/pdf-icon.svg" alt="PDF">
+                    </div>
+                    <div class="research-content">
+                        <h3>Anomaly Detection Using Convolutional Neural Networks for Crime Prevention: A Deep Learning
+                            Approach</h3>
+                        <span class="research-badge">Journal Paper</span>
+                        <p class="research-context">IJLTEMAS, Volume XIV, Issue VI, July 2025</p>
+                        <a href="https://www.ijltemas.in/submission/online/article/view/2221/1989"
+                            class="research-action" target="_blank" rel="noopener noreferrer">View Publication</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="experience" class="experience-section reveal">
+        <div class="container">
+            <div class="experience-header">
+                <h2>Professional Experience</h2>
+                <p>Roles, contributions and outcomes</p>
+            </div>
+
+            <div class="timeline">
+                <!-- Item 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Software Development Intern</h3>
+                            <span class="company-name">Cosyn Limited | Hyderabad, India</span>
+                        </div>
+                        <span class="timeline-date">September 2025 – Present</span>
+                        <ul class="experience-list">
+                            <li>Developed a scalable AI-powered Assignment Grading Platform leveraging NLP and Machine
+                                Learning to automate evaluation across essays, coding tasks, and objective assessments,
+                                reducing grading effort by 60–70%.</li>
+                            <li>Implemented rubric-based scoring, bias/fairness controls, plagiarism detection, and
+                                instant feedback generation, ensuring consistent and transparent assessment at scale.
+                            </li>
+                            <li>Designed an LMS-integrated cloud architecture with real-time analytics dashboards,
+                                enabling institutions to handle thousands of submissions efficiently while improving
+                                learner engagement and outcomes.</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tech-tag">NLP</span>
+                            <span class="tech-tag">Machine Learning</span>
+                            <span class="tech-tag">Cloud Architecture</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Policy and Action Research Intern</h3>
+                            <span class="company-name">Ministry of Panchayati Raj, Government of India | Remote</span>
+                        </div>
+                        <span class="timeline-date">December 2024</span>
+                        <p class="experience-meta">Acknowledgment No: IMOPR/2021/14216</p>
+                        <ul class="experience-list">
+                            <li>Successfully participated in government internship program focused on digital governance
+                                and rural development initiatives.</li>
+                            <li>Contributed to policy research and data analysis supporting panchayat-level
+                                administrative improvements.</li>
+                            <li>Gained insights into e-governance frameworks and digital transformation strategies for
+                                rural India.</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tech-tag">Digital Governance</span>
+                            <span class="tech-tag">Policy Research</span>
+                            <span class="tech-tag">Data Analysis</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Generative AI Intern</h3>
+                            <span class="company-name">PanTech Solutions | Hybrid</span>
+                        </div>
+                        <span class="timeline-date">March 2024 – Jun 2024</span>
+                        <ul class="experience-list">
+                            <li>Built an anomaly detection system using Convolutional Neural Networks (CNNs) to identify
+                                suspicious criminal activities (robbery, homicide, vandalism) from surveillance and
+                                crime-related datasets.</li>
+                            <li>Trained deep learning models on labeled behavioral patterns to detect abnormal movements
+                                and unusual events, enabling real-time monitoring for proactive crime prevention.</li>
+                            <li>Enhanced public safety analytics by designing a framework that continuously improves
+                                detection accuracy through iterative learning on new data.</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tech-tag">CNN</span>
+                            <span class="tech-tag">Computer Vision</span>
+                            <span class="tech-tag">Anomaly Detection</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 4 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Cybersecurity Research Intern</h3>
+                            <span class="company-name">CSRBOX Institute (with IBM SkillsBuild) | Remote</span>
+                        </div>
+                        <span class="timeline-date">September 2024 – November 2024</span>
+                        <ul class="experience-list">
+                            <li>Conducted a detailed cybersecurity case study on the “Pager Blast” attack, analyzing
+                                phishing-based malware delivery, system compromise, and sensitive data exfiltration in
+                                critical infrastructure environments.</li>
+                            <li>Performed OSINT-driven threat intelligence investigations using tools such as Maltego,
+                                Shodan, Recon-ng, and TheHarvester to identify attacker patterns and enhance proactive
+                                defense strategies.</li>
+                            <li>Explored modern incident response and SIEM frameworks, including IBM QRadar Security
+                                Intelligence Platform and AI-powered tools like GeoSpy.AI, for real-time threat
+                                detection, geolocation, and predictive analytics.</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tech-tag">OSINT</span>
+                            <span class="tech-tag">SIEM</span>
+                            <span class="tech-tag">Threat Detection</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 5 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Java Development Intern</h3>
+                            <span class="company-name">CodSoft | Remote</span>
+                        </div>
+                        <span class="timeline-date">May 2023 – Aug 2023</span>
+                        <ul class="experience-list">
+                            <li>Developed multiple functional Java applications (ATM Interface, Currency Converter,
+                                Grade Calculator, Student Management System) using OOP principles.</li>
+                            <li>Implemented exception handling and input validation significantly improving application
+                                reliability and user experience.</li>
+                            <li>Utilized Git for version control, maintaining clean commit history across all projects.
+                            </li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">OOP</span>
+                            <span class="tech-tag">Git</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-cta-section">
+                <a href="assets/resume.pdf" class="cta-btn resume-btn" target="_blank"><i
+                        class="fa-solid fa-file-pdf"></i> Download Resume</a>
+                <a href="https://www.linkedin.com/in/mohammedehteshamulbaqui" class="cta-btn linkedin-btn"
+                    target="_blank"><i class="fa-brands fa-linkedin"></i> Connect on LinkedIn</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="footer" class="reveal">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-left">
+                    <h2>Ready to Create Something<br>Amazing Together?</h2>
+
+                    <div class="contact-card">
+                        <h3>Let's <span class="highlight">Connect!</span></h3>
+                        <form action="#" method="post" id="email-form">
+                            <input type="text" name="name" placeholder="Your name">
+                            <input type="email" name="email" placeholder="Email Address">
+                            <textarea name="message" placeholder="Your Message"></textarea>
+                            <button type="submit">Send</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="footer-right">
+                    <div class="footer-section">
+                        <h4>Contact</h4>
+                        <a href="mailto:ehteshambaqui9@gmail.com" class="footer-email">ehteshambaqui9@gmail.com</a>
+                        <p class="footer-location">Hyderabad, India</p>
+                    </div>
+
+                    <ul class="footer-links">
+                        <li><a href="#home">&lt; Home &gt;</a></li>
+                        <li><a href="#latest-works">Projects</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#footer">Contact</a></li>
+                    </ul>
+
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/mohammedehteshamulbaqui" target="_blank"><i
+                                class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://github.com/EhteshamBaqui" target="_blank"><i
+                                class="fa-brands fa-github"></i></a>
+                        <a href="mailto:ehteshambaqui9@gmail.com" target="_blank"><i
+                                class="fa-regular fa-envelope"></i></a>
+                    </div>
+
+                    <div class="copyright">
+                        <p>Copyright © 2026 Ehtesham Ul Baqui</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js?v=20260130-1"></script>
+</body>
+
+</html>

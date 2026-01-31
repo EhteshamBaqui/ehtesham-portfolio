@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="400" height="240">
+  <defs>
+    <linearGradient id="pg6" x1="0" x2="1">
+      <stop offset="0%" stop-color="#d6ffe3"/>
+      <stop offset="100%" stop-color="#cce7ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" rx="12" fill="url(#pg6)"/>
+  <rect x="24" y="20" width="352" height="200" rx="12" fill="#071022" opacity="0.06"/>
+  <text x="50%" y="52%" font-family="Inter, Arial, sans-serif" font-size="20" fill="#071728" font-weight="800" text-anchor="middle" dominant-baseline="middle">Smart Inventory</text>
+  <text x="50%" y="64%" font-family="Inter, Arial, sans-serif" font-size="12" fill="#053" font-weight="600" text-anchor="middle" dominant-baseline="middle">Management</text>
+</svg>

@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="120" viewBox="0 0 160 120">
+  <rect rx="12" width="160" height="120" fill="#071227" />
+  <text x="50%" y="52%" dominant-baseline="middle" text-anchor="middle" font-size="18" fill="#00a0ff" font-family="Inter, Arial, sans-serif">VS Code</text>
+</svg>

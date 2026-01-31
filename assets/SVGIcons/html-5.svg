@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <path d="M12 6h40l-4 44-16 6-16-6L12 6z" fill="#e44d26" stroke="#e44d26" stroke-width="0"/>
+  <text x="50%" y="48%" font-size="12" text-anchor="middle" fill="#fff" font-family="Inter, Arial">HTML5</text>
+</svg>

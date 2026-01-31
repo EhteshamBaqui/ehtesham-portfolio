@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px;
+  position: fixed;
+  width: 100%;
+  background: rgba(15, 23, 42, 0.95);
+  z-index: 100;
+}
+
+.navbar-menu {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.navbar-menu a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.social-media {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+}
+
+.cv-button {
+  background: cyan;
+  padding: 8px 15px;
+  border-radius: 8px;
+  color: black;
+  font-weight: bold;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 140px 80px;
+}
+
+.hero-right img {
+  width: 280px;
+  border-radius: 50%;
+  border: 4px solid cyan;
+}
+
+.hero-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 20px;
+  background: cyan;
+  color: black;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.stats {
+  display: flex;
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.section {
+  padding: 100px 60px;
+}
+
+.dark {
+  background: #111827;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.project-card {
+  background: #1e293b;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.project-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+}
+
+.project-card h3 {
+  padding: 10px;
+}
+
+.project-card p {
+  padding: 0 10px;
+}
+
+.project-card a {
+  display: block;
+  margin: 10px;
+  text-decoration: none;
+  color: cyan;
+}
+
+.skills-grid span {
+  background: cyan;
+  color: black;
+  padding: 10px 15px;
+  margin: 8px;
+  display: inline-block;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.timeline-item {
+  border-left: 3px solid cyan;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+}
+
+input, textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+}
+
+button {
+  padding: 12px;
+  background: cyan;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+}

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="120" viewBox="0 0 160 120">
+  <rect rx="12" width="160" height="120" fill="#071227" />
+  <g>
+    <polygon points="40,28 84,28 70,64 40,64" fill="#0078d4" />
+    <text x="50%" y="82%" dominant-baseline="middle" text-anchor="middle" font-size="14" fill="#e6eef8" font-family="Inter, Arial, sans-serif">Azure</text>
+  </g>
+</svg>

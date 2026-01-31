@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="120" viewBox="0 0 160 120">
+  <rect rx="12" width="160" height="120" fill="#071227" />
+  <g>
+    <rect x="24" y="52" width="112" height="24" rx="4" fill="#2496ed" />
+    <circle cx="40" cy="44" r="6" fill="#2496ed" />
+    <text x="50%" y="86%" dominant-baseline="middle" text-anchor="middle" font-size="14" fill="#e6eef8" font-family="Inter, Arial, sans-serif">Docker</text>
+  </g>
+</svg>

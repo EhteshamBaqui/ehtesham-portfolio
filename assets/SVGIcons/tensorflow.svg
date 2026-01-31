@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="120" viewBox="0 0 160 120">
+  <rect rx="12" width="160" height="120" fill="#071227" />
+  <g>
+    <polygon points="36,22 72,22 72,58 36,58" fill="#ff6f00" opacity="0.95" />
+    <text x="50%" y="68%" dominant-baseline="middle" text-anchor="middle" font-size="16" fill="#e6eef8" font-family="Inter, Arial, sans-serif">TensorFlow</text>
+  </g>
+</svg>

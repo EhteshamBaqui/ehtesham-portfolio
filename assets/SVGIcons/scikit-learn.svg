@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="120" viewBox="0 0 160 120">
+  <rect rx="12" width="160" height="120" fill="#071227" />
+  <g>
+    <rect x="30" y="26" width="44" height="44" rx="8" fill="#7ce7ff" />
+    <text x="50%" y="68%" dominant-baseline="middle" text-anchor="middle" font-size="16" fill="#e6eef8" font-family="Inter, Arial, sans-serif">Scikit</text>
+  </g>
+</svg>

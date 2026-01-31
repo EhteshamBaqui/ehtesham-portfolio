@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mohammed Ehtesham Ul Baqui | Portfolio</title>
+
+  <!-- FontAwesome -->
+  <script src="https://kit.fontawesome.com/e674bba739.js" crossorigin="anonymous"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ================= NAVBAR ================= -->
+  <header id="header">
+    <div class="navbar-title">
+      <h3 class="title-first-name">Mohammed</h3>
+      <h3 class="title-last-name">Ehtesham</h3>
+    </div>
+
+    <!-- Hamburger -->
+    <div id="hamburger" class="hamburger">☰</div>
+
+    <nav class="navbar-menu-wrapper">
+      <ul class="navbar-menu">
+        <li><a href="#home" class="active">&lt; Home &gt;</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <ul class="social-media">
+      <li>
+        <a href="https://linkedin.com/in/mohammedehteshamulbaqui" target="_blank">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </li>
+
+      <li>
+        <a href="https://github.com/EhteshamBaqui" target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </li>
+
+      <li>
+        <a href="mailto:ehteshambaqui9@outlook.com">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+      </li>
+
+      <li>
+        <a href="assets/resume.pdf" target="_blank" class="cv-button">
+          📄 Resume
+        </a>
+      </li>
+    </ul>
+  </header>
+
+  <!-- ================= HERO ================= -->
+  <section id="home" class="hero-section">
+    <div class="hero-left">
+
+      <h1>
+        Mohammed Ehtesham<br />
+        Ul Baqui
+      </h1>
+
+      <h3 class="hero-subtitle">
+        Computer Science Engineering Student | Dean’s List Recipient | AI/ML & Cybersecurity Enthusiast
+      </h3>
+
+      <p>
+        Bridging Technology, Education & Science Literacy | Community Tech Education Advisor |
+        Graduating July 2026.
+      </p>
+
+      <a href="#projects" class="hero-btn">Explore My Work 🚀</a>
+
+      <div class="stats">
+        <div>
+          <h2>5+</h2>
+          <p>AI Projects</p>
+        </div>
+        <div>
+          <h2>2</h2>
+          <p>Research Papers</p>
+        </div>
+        <div>
+          <h2>4+</h2>
+          <p>Internships</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="hero-right">
+      <img src="assets/profile.jpg" alt="Ehtesham Profile Photo" />
+    </div>
+  </section>
+
+  <!-- ================= PROJECTS ================= -->
+  <section id="projects" class="section">
+    <h2>My Projects</h2>
+    <p class="subtitle">Deep Learning + Real World Applications</p>
+
+    <div class="projects-grid">
+
+      <!-- Project 1 -->
+      <div class="project-card">
+        <img src="assets/Projects/project1.jpg" alt="Project 1">
+        <h3>Anomaly Detection in Surveillance</h3>
+        <p>CNN + LSTM + 3D-CNN system for crime prevention.</p>
+        <a href="https://github.com/EhteshamBaqui" target="_blank">GitHub</a>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card">
+        <img src="assets/Projects/project2.jpg" alt="Project 2">
+        <h3>Lung & Colon Cancer Detection</h3>
+        <p>ResNet50 Transfer Learning for medical classification.</p>
+        <a href="https://github.com/EhteshamBaqui" target="_blank">GitHub</a>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project-card">
+        <img src="assets/Projects/project3.jpg" alt="Project 3">
+        <h3>LEXES – AI Virtual Assistant</h3>
+        <p>Voice assistant using NLP + Speech APIs.</p>
+        <a href="https://github.com/EhteshamBaqui" target="_blank">GitHub</a>
+      </div>
+
+      <!-- Project 4 -->
+      <div class="project-card">
+        <img src="assets/Projects/project4.jpg" alt="Project 4">
+        <h3>Face Generation using GANs</h3>
+        <p>GAN model trained on CelebA dataset.</p>
+        <a href="https://github.com/EhteshamBaqui" target="_blank">GitHub</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= SKILLS ================= -->
+  <section id="skills" class="section dark">
+    <h2>Technical Skills</h2>
+
+    <div class="skills-grid">
+      <span>Python</span>
+      <span>Java</span>
+      <span>TensorFlow</span>
+      <span>PyTorch</span>
+      <span>CNN + LSTM</span>
+      <span>MySQL</span>
+      <span>MongoDB</span>
+      <span>React</span>
+      <span>Cybersecurity Tools</span>
+    </div>
+  </section>
+
+  <!-- ================= EXPERIENCE ================= -->
+  <section id="experience" class="section">
+    <h2>Experience</h2>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <h3>Software Development Intern – Cosyn Limited</h3>
+        <p>Built AI-powered grading platform reducing effort by 70%.</p>
+      </div>
+
+      <div class="timeline-item">
+        <h3>Generative AI Intern – PanTech Solutions</h3>
+        <p>Developed anomaly detection models for suspicious activities.</p>
+      </div>
+
+      <div class="timeline-item">
+        <h3>Cybersecurity Intern – IBM SkillsBuild</h3>
+        <p>OSINT + SIEM investigations with QRadar, Shodan, Maltego.</p>
+      </div>
+
+      <div class="timeline-item">
+        <h3>Java Development Intern – CodSoft</h3>
+        <p>Built multiple Java applications using OOP principles.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= RESEARCH ================= -->
+  <section id="research" class="section dark">
+    <h2>Publications</h2>
+
+    <div class="research-box">
+      <p>📄 Predicting Student's Academic Performance Using Deep Learning (IJLTEMAS, May 2025)</p>
+      <p>📄 Anomaly Detection Using CNN for Crime Prevention (IJLTEMAS, July 2025)</p>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <p class="subtitle">Let’s collaborate and build something impactful 🚀</p>
+
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer>
+    <p>© 2026 Mohammed Ehtesham Ul Baqui | Portfolio Website</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="120" viewBox="0 0 160 120">
+  <rect rx="12" width="160" height="120" fill="#071227" />
+  <g>
+    <circle cx="40" cy="40" r="22" fill="#61dafb" />
+    <rect x="74" y="28" width="68" height="44" rx="8" fill="#0b1220" opacity="0.7" />
+    <text x="50%" y="68%" dominant-baseline="middle" text-anchor="middle" font-size="18" fill="#e6eef8" font-family="Inter, Arial, sans-serif">React</text>
+  </g>
+</svg>

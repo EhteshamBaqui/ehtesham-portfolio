@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="120" viewBox="0 0 160 120">
+  <rect rx="12" width="160" height="120" fill="#071227" />
+  <g>
+    <circle cx="42" cy="40" r="12" fill="#ea4335" />
+    <circle cx="62" cy="40" r="12" fill="#fbbc05" />
+    <circle cx="52" cy="56" r="12" fill="#34a853" />
+    <text x="50%" y="86%" dominant-baseline="middle" text-anchor="middle" font-size="14" fill="#e6eef8" font-family="Inter, Arial, sans-serif">GCP</text>
+  </g>
+</svg>
