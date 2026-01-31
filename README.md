@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🚀 Mohammed Ehtesham - AI/ML Engineer Portfolio
 
 A premium, world-class portfolio showcasing my expertise in AI/ML Engineering and Software Development.
