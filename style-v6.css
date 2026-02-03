@@ -1693,6 +1693,16 @@ body::after {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .lightbox-close {
+    top: 20px !important;
+    right: 20px !important;
+    font-size: 50px !important;
+    padding: 10px !important;
+    /* Larger hit area */
+  }
+}
+
 @media screen and (max-width: 600px) {
   .gallery-masonry {
     column-count: 1;
