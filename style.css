@@ -1546,13 +1546,14 @@ body::after {
   flex-direction: column !important;
   justify-content: center !important;
   align-items: center !important;
-  padding: 20px !important;
+  padding: 30px !important;
   text-align: center !important;
   z-index: 50 !important;
   opacity: 0 !important;
   visibility: hidden !important;
   transition: all 0.4s ease !important;
-  background: rgba(2, 6, 12, 0.7) !important;
+  background: rgba(2, 6, 12, 0.85) !important;
+  /* Higher opacity for solid look */
   pointer-events: none !important;
 }
 
@@ -1562,14 +1563,15 @@ body::after {
 }
 
 .moment-overlay p {
-  color: #fff;
+  color: #ffffff !important;
   font-family: var(--primary-font);
-  font-size: 16px;
-  font-weight: 700;
-  margin: 0 0 15px 0;
-  line-height: 1.4;
-  text-shadow: 0 0 15px rgba(63, 230, 184, 0.8), 0 0 30px rgba(63, 230, 184, 0.4);
-  /* The "Glow Up" effect */
+  font-size: 17px !important;
+  font-weight: 700 !important;
+  margin: 0 0 20px 0 !important;
+  line-height: 1.5 !important;
+  text-shadow: none !important;
+  /* Removed heavy glow */
+  letter-spacing: 0.5px !important;
 }
 
 .view-moment-btn {
@@ -1580,17 +1582,17 @@ body::after {
   letter-spacing: 2px;
   text-decoration: none;
   display: inline-block;
-  padding: 8px 16px;
-  border: 1px solid rgba(63, 230, 184, 0.3);
-  border-radius: 4px;
-  background: rgba(63, 230, 184, 0.1);
+  padding: 10px 20px;
+  border: 1.5px solid #3fe6b8;
+  border-radius: 6px;
+  background: transparent;
   transition: all 0.3s ease;
 }
 
 .moment-card:hover .view-moment-btn {
   background: #3fe6b8;
   color: #02060c;
-  box-shadow: 0 0 20px rgba(63, 230, 184, 0.6);
+  box-shadow: 0 8px 15px rgba(63, 230, 184, 0.3);
 }
 
 /* Lightbox simplified styles */
