@@ -1532,8 +1532,9 @@ body::after {
 }
 
 .moment-card:hover img {
-  transform: scale(1.1);
-  filter: blur(5px) brightness(0.3);
+  transform: scale(1.05);
+  filter: blur(2px) brightness(0.8) !important;
+  /* Much more subtle blur and brightness */
 }
 
 .moment-overlay {
@@ -1551,12 +1552,12 @@ body::after {
   z-index: 50 !important;
   opacity: 0 !important;
   visibility: hidden !important;
-  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1) !important;
-  background: rgba(0, 0, 0, 0.1) !important;
-  /* Nearly transparent */
-  backdrop-filter: blur(15px) brightness(0.7) !important;
-  /* Stronger blur, less darkening */
-  -webkit-backdrop-filter: blur(15px) brightness(0.7) !important;
+  transition: all 0.4s ease !important;
+  background: rgba(0, 0, 0, 0.15) !important;
+  /* Minimal darkening */
+  backdrop-filter: blur(3px) brightness(0.9) !important;
+  /* Soft, readable blur */
+  -webkit-backdrop-filter: blur(3px) brightness(0.9) !important;
   /* Safari support */
   pointer-events: none !important;
 }
