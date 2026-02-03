@@ -3,6 +3,12 @@ const hamburger = document.getElementById('hamburger');
 const menuWrapper = document.querySelector('.navbar-menu-wrapper');
 if (hamburger && menuWrapper) {
   hamburger.addEventListener('click', () => menuWrapper.classList.toggle('active'));
+
+  // Close menu when a link is clicked
+  const menuLinks = menuWrapper.querySelectorAll('a');
+  menuLinks.forEach(link => {
+    link.addEventListener('click', () => menuWrapper.classList.remove('active'));
+  });
 }
 
 
