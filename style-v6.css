@@ -21,12 +21,28 @@ html {
 
 body {
   background: #02060c;
-  /* Deep Noir base */
   color: #fff;
   font-family: var(--primary-font);
   overflow-x: hidden;
   position: relative;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+  /* Professional smooth scroll */
+  -webkit-overflow-scrolling: touch;
+  /* Smooth momentum scroll for iOS */
+  padding-bottom: env(safe-area-inset-bottom);
+  /* iOS Safe Area support */
+}
+
+/* Remove grey tap highlight on mobile for a native feel */
+a,
+button,
+.moment-card,
+.skill-card,
+.project-card,
+.role-option {
+  -webkit-tap-highlight-color: transparent;
 }
 
 /* 1. Animated Film Grain/Noise */
@@ -1410,17 +1426,21 @@ body::after {
     gap: 30px;
   }
 
+  .navbar-title h3 {
+    font-size: 16px !important;
+  }
+
   .skill-grid {
-    display: grid !important;
-    grid-template-columns: repeat(2, 1fr) !important;
-    gap: 12px !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 15px !important;
     padding: 10px !important;
-    justify-items: center;
+    justify-content: center !important;
   }
 
   .skill-card {
-    width: 100px !important;
-    height: 115px !important;
+    width: 90px !important;
+    height: 105px !important;
   }
 
   .skill-card.text-only p {
@@ -1687,11 +1707,32 @@ body::after {
   }
 
   .moment-overlay {
-    padding: 20px 15px;
+    opacity: 1 !important;
+    /* Always visible on mobile so captions aren't hidden */
+    visibility: visible !important;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, transparent 60%) !important;
+    backdrop-filter: none !important;
+    /* No blur on mobile to keep it performance friendly */
+    justify-content: flex-end !important;
+    padding: 15px !important;
+    transform: none !important;
   }
 
   .moment-overlay p {
-    font-size: 14px;
+    font-size: 12px !important;
+    margin-bottom: 8px !important;
+    text-align: left !important;
+    max-width: 100% !important;
+  }
+
+  .view-moment-btn {
+    display: none !important;
+    /* Hide button on mobile gallery to save space */
+  }
+
+  .moment-card:hover img {
+    transform: none !important;
+    filter: none !important;
   }
 }
 
