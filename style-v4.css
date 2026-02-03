@@ -1552,10 +1552,12 @@ body::after {
   opacity: 0 !important;
   visibility: hidden !important;
   transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1) !important;
-  background: rgba(2, 6, 12, 0.25) !important;
-  /* Semi-transparent base */
-  backdrop-filter: blur(15px) brightness(0.6) !important;
-  /* Premium glass-blur effect */
+  background: rgba(0, 0, 0, 0.1) !important;
+  /* Nearly transparent */
+  backdrop-filter: blur(15px) brightness(0.7) !important;
+  /* Stronger blur, less darkening */
+  -webkit-backdrop-filter: blur(15px) brightness(0.7) !important;
+  /* Safari support */
   pointer-events: none !important;
 }
 
