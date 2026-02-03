@@ -1411,19 +1411,20 @@ body::after {
   }
 
   .skill-grid {
-    gap: 8px;
-    /* Tighter gap for mobile */
-    padding: 10px;
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 12px !important;
+    padding: 10px !important;
+    justify-items: center;
   }
 
   .skill-card {
-    width: 105px;
-    /* Smaller cards to fit side-by-side */
-    height: 120px;
+    width: 100px !important;
+    height: 115px !important;
   }
 
   .skill-card.text-only p {
-    font-size: 16px;
+    font-size: 14px !important;
   }
 
   .research-item {
