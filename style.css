@@ -1605,14 +1605,29 @@ body::after {
 }
 
 @media screen and (max-width: 1200px) {
+  .gallery-section {
+    padding: 60px 30px;
+  }
+
   .gallery-masonry {
     column-count: 3;
   }
 }
 
+@media screen and (max-width: 992px) {
+  .gallery-header h2 {
+    font-size: 40px;
+  }
+}
+
 @media screen and (max-width: 900px) {
+  .gallery-section {
+    padding: 50px 20px;
+  }
+
   .gallery-masonry {
     column-count: 2;
+    column-gap: 20px;
   }
 }
 
@@ -1623,6 +1638,18 @@ body::after {
 
   .gallery-header h2 {
     font-size: 32px;
+  }
+
+  .gallery-header p {
+    font-size: 16px;
+  }
+
+  .gallery-caption {
+    padding: 20px 15px;
+  }
+
+  .gallery-caption p {
+    font-size: 14px;
   }
 }
 
