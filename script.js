@@ -285,3 +285,32 @@ document.querySelectorAll('a[href^="#"]').forEach(a => {
 })();
 
 console.log('Ehtesham portfolio scripts loaded v2');
+
+// Gallery Lightbox
+window.openLightbox = function (item) {
+  const img = item.querySelector('img');
+  const modal = document.getElementById('lightbox');
+  const modalImg = document.getElementById('lightbox-img');
+
+  if (modal && modalImg && img) {
+    modal.style.display = "block";
+    modalImg.src = img.src;
+    document.body.style.overflow = "hidden"; // Prevent scroll
+  }
+}
+
+window.closeLightbox = function () {
+  const modal = document.getElementById('lightbox');
+  if (modal) {
+    modal.style.display = "none";
+    document.body.style.overflow = "auto";
+  }
+}
+
+// Close lightbox on click outside image
+window.onclick = function (event) {
+  const modal = document.getElementById('lightbox');
+  if (event.target == modal) {
+    closeLightbox();
+  }
+}
