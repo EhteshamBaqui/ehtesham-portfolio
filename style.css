@@ -1469,6 +1469,126 @@ body::after {
   }
 }
 
+/* Gallery Section - Masonry Layout */
+.gallery-section {
+  padding: 80px 40px;
+  background: #02060c;
+}
+
+.gallery-header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.gallery-header h2 {
+  font-size: 48px;
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+.gallery-header p {
+  color: #9fb0b8;
+  font-size: 18px;
+}
+
+.gallery-masonry {
+  column-count: 4;
+  column-gap: 24px;
+  width: 100%;
+}
+
+.gallery-item {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 24px;
+  border-radius: 16px;
+  overflow: hidden;
+  background: rgba(30, 36, 44, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  position: relative;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.gallery-item:hover {
+  transform: translateY(-8px);
+  border-color: rgba(63, 230, 184, 0.4);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.6s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05);
+}
+
+.gallery-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 16px;
+  background: linear-gradient(to top, rgba(2, 6, 12, 0.9), transparent);
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 0.4s ease;
+}
+
+.gallery-item:hover .gallery-caption {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.gallery-caption p {
+  color: #3fe6b8;
+  font-family: var(--primary-font);
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.gallery-item.placeholder {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed rgba(124, 231, 255, 0.2);
+  background: transparent;
+}
+
+.gallery-placeholder-inner {
+  color: #565e68;
+  font-style: italic;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 1200px) {
+  .gallery-masonry {
+    column-count: 3;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .gallery-masonry {
+    column-count: 2;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .gallery-masonry {
+    column-count: 1;
+  }
+
+  .gallery-header h2 {
+    font-size: 32px;
+  }
+}
+
 /* small utilities */
 .active-role {
   color: #7ce7ff;
