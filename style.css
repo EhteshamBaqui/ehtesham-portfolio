@@ -1193,25 +1193,7 @@ body::after {
   text-decoration: underline
 }
 
-@media (max-width:900px) {
-  .skill-grid {
-    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-  }
-
-  .skills-header h2 {
-    font-size: 36px
-  }
-
-  .skill-card {
-    min-height: 140px
-  }
-}
-
-@media (max-width:900px) {
-  .skill-grid {
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-  }
-}
+/* Cleaned up redundant small media quieries - handled by 768px/992px blocks */
 
 
 /* Footer CTA Section */
@@ -1404,27 +1386,7 @@ body::after {
   color: #565e68
 }
 
-@media (max-width:900px) {
-  .footer-grid {
-    flex-direction: column;
-    gap: 40px
-  }
-
-  .footer-left,
-  .footer-right {
-    max-width: 100%;
-    width: 100%
-  }
-
-  .footer-right {
-    align-items: center;
-    text-align: center
-  }
-
-  .footer-links {
-    align-items: center
-  }
-}
+/* Handled in main 768px block */
 
 /* Responsive */
 @media screen and (max-width: 768px) {
@@ -1449,12 +1411,15 @@ body::after {
   }
 
   .skill-grid {
-    gap: 12px;
+    gap: 8px;
+    /* Tighter gap for mobile */
+    padding: 10px;
   }
 
   .skill-card {
-    width: 130px;
-    height: 150px;
+    width: 105px;
+    /* Smaller cards to fit side-by-side */
+    height: 120px;
   }
 
   .skill-card.text-only p {
