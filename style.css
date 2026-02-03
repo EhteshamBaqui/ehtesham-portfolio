@@ -1499,41 +1499,44 @@ body::after {
 
 .gallery-item {
   position: relative;
-  /* Essential for overlay */
-  display: inline-block;
+  display: block;
+  /* Changed from inline-block for better masonry behavior */
   width: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 24px;
   border-radius: 12px;
   overflow: hidden;
   background: #02060c;
   border: 1px solid rgba(255, 255, 255, 0.05);
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
+  break-inside: avoid;
+  /* Prevent card splitting in masonry */
 }
 
 .gallery-item:hover {
   transform: translateY(-8px);
-  border-color: rgba(63, 230, 184, 0.5);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.8);
+  border-color: rgba(63, 230, 184, 0.8);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.9);
 }
 
 .gallery-image-container {
   width: 100%;
-  height: 100%;
-  overflow: hidden;
+  position: relative;
+  line-height: 0;
+  /* Remove bottom gap from images */
 }
 
 .gallery-item img {
   width: 100%;
   height: auto;
   display: block;
-  transition: transform 0.6s ease, filter 0.4s ease;
+  transition: transform 0.6s ease, filter 0.5s ease;
 }
 
 .gallery-item:hover img {
   transform: scale(1.1);
-  filter: blur(4px) brightness(0.4);
-  /* Darken and blur to make text pop */
+  filter: blur(8px) brightness(0.3);
+  /* Heavier blur/darken for text contrast */
 }
 
 .gallery-caption {
@@ -1546,18 +1549,22 @@ body::after {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 30px;
+  padding: 20px;
   text-align: center;
+  z-index: 10;
   opacity: 0;
-  transform: translateY(20px);
+  visibility: hidden;
+  /* Strict hiding */
+  transform: scale(0.9);
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-  pointer-events: none;
-  /* Let clicks pass to the parent */
+  background: rgba(2, 6, 12, 0.4);
+  /* Subtle overlay background */
 }
 
 .gallery-item:hover .gallery-caption {
   opacity: 1;
-  transform: translateY(0);
+  visibility: visible;
+  transform: scale(1);
 }
 
 .gallery-caption p {
